@@ -40,7 +40,7 @@ In order to interface with the hardware unit, it has to be linked with a compute
 
 ### DEBUGGING
 
-The [`Classes.py`](code/software/Classes.py), [`Functions_1.py`](code/software/Function_1.py), [`Functions_2.py`](code/software/Function_2.py), and [`Functions_3.py`](code/software/Function_3.py) files each have debugging boolean variables labelled `DEBUG_xxxxxx`, where `xxxxxx` represents the specific debugging feature. These variables are all found near the top of their respective files and their functionality is described in code. Setting these variables to true will enable their corresponding debugging features, and vice versa.
+The [`Classes.py`](code/software/Classes.py), [`Functions_1.py`](code/software/Functions_1.py), [`Functions_2.py`](code/software/Functions_2.py), and [`Functions_3.py`](code/software/Functions_3.py) files each have debugging boolean variables labelled `DEBUG_xxxxxx`, where `xxxxxx` represents the specific debugging feature. These variables are all found near the top of their respective files and their functionality is described in code. Setting these variables to true will enable their corresponding debugging features, and vice versa.
 
 
 ### CALIBRATION
