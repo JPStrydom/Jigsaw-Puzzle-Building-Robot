@@ -1,6 +1,6 @@
-#Jigsaw Puzzle Building Robot With CNC Approach
+# Jigsaw Puzzle Building Robot With CNC Approach
 
-###Prerequisites
+### Prerequisites
 
 * [Python 2.7.X](https://www.python.org/ftp/python/2.7.13/python-2.7.13.msi)
 * [Numpy 1.7.X](http://sourceforge.net/projects/numpy/files/NumPy/1.7.1/numpy-1.7.1-win32-superpack-python2.7.exe/download)
@@ -9,14 +9,14 @@
 A useful introduction to the project's underlying libraries can be found [here](https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_setup/py_table_of_contents_setup/py_table_of_contents_setup.html#py-table-of-content-setup).
 
 
-###INTRODUCTION
+### INTRODUCTION
 
 This readme serves as a brief guide to the operation of the CNC Jigsaw Puzzle Building Robot at the University of Pretoria. This robot, along with all its hardware, software, and firmware components, was designed, developed, and built from first principals, by J.P. Strydom for his final year project. This project, along with its supporting documentation, served as the final deliverable to obtain a Bachelors in Computer Engineering. 
 
 The project's YouTube video playlist is available [here](https://www.youtube.com/playlist?list=PL-dF5vEAX-wXbiRrD7gLAtIBlyCBS7HLN).
 
 
-###BRIEF SOFTWARE DESCRIPTION
+### BRIEF SOFTWARE DESCRIPTION
 
 A link to the software folder can be found [here](code/software/).
 
@@ -31,19 +31,19 @@ A link to the software folder can be found [here](code/software/).
 * **`software-simulation-platform-controls.pdf`** -  This file shows the commands for controlling the simulation platform files.
 
 
-###SETUP
+### SETUP
 
 The digital camera should have at least a 720p resolution (1280 by 720). The camera interface index can be configured on *lines 15* and *18* in the `Puzzle_Solver_UI.py` file, and on *line 14* in the `Simulation_Platform.py` file. When running the `Simulation_Platform.py` file, the unaltered camera output should look as similar as possible to the example images provided in the [*`code/software/images/`*](code/software/images) directory (`original.png` to `original-7.png`). Example camera setup photos can be found in the [*`images/photos/`*](images/photos) directory (`layout-1.jpg` and `layout-2.jpg`).
 
 In order to interface with the hardware unit, it has to be linked with a computer housing the software unit, via a serial-to-USB cable. The COM port number can be configured on *lines 24* and *27* in the `Puzzle_Solver_UI.py` file.
 
 
-###DEBUGGING
+### DEBUGGING
 
 The `Classes.py`, `Functions_1.py`, `Functions_2.py`, and `Functions_3.py` files each have debugging boolean variables labelled `DEBUG_xxxxxx`, where `xxxxxx` represents the specific debugging feature. These variables are all found near the top of their respective files and their functionality is described in code. Setting these variables to true will enable their corresponding debugging features, and vice versa.
 
 
-###CALIBRATION
+### CALIBRATION
   
 Throughout the code, there are calibration dependant variables. These variables are preceded by a comment line which starts with multiple `#` characters (which makes them easy to locate), and these lines each end with a `[Calibration Values]` tag. Two examples of such calibration variable sets are shown below.
 
