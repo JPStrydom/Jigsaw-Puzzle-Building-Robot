@@ -1,6 +1,6 @@
-# Jigsaw Puzzle Building Robot With CNC Approach
+# [Jigsaw Puzzle Building Robot With CNC Approach](https://www.youtube.com/playlist?list=PL-dF5vEAX-wXbiRrD7gLAtIBlyCBS7HLN)
 
-### Prerequisites
+### PREREQUISITES
 
 * [Python 2.7.X](https://www.python.org/ftp/python/2.7.13/python-2.7.13.msi)
 * [Numpy 1.7.X](http://sourceforge.net/projects/numpy/files/NumPy/1.7.1/numpy-1.7.1-win32-superpack-python2.7.exe/download)
@@ -67,4 +67,3 @@ Throughout the code, there are calibration dependant variables. These variables 
 These variables pertain to aspects such as puzzle parameters and gantry specifications, and many of them can be found by utilising the debug tools, as described above, along with the software simulation platform.
 
 As it stands, all the system`s calibration values have been configured for the current gantry setup and the puzzles accompanying this digital documentation package.
-# Jigsaw-Puzzle-Building-Robot
